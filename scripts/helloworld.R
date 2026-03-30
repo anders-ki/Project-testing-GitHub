@@ -8,3 +8,5 @@ df.plot <- ggplot(df_proc, aes(x = Age, y = Height_cm)) +
                  geom_point()
 df.plot <- df.plot + geom_line()
 ggsave('results/20260330_processed_plot.png', df.plot)
+
+#test
